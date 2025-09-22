@@ -11,7 +11,7 @@ setup(
      ['resource/rosbag_to_csv']),
     ('share/rosbag_to_csv', ['package.xml']),
     ('share/rosbag_to_csv/launch', ['launch/rosbag_to_csv_gui.launch.py']),
-    # ('share/rosbag_to_csv/launch', ['launch/rosbag_to_csv_plot.launch.py']),
+    ('share/rosbag_to_csv/launch', ['launch/rosbag_to_csv_plot.launch.py']),
 ],
     install_requires=['setuptools', 'PyYAML'],
     zip_safe=True,
@@ -23,7 +23,7 @@ setup(
         'console_scripts': [
             'rosbag_to_csv = rosbag_to_csv.cli:main',
             'rosbag_to_csv_gui = rosbag_to_csv.gui:main',
-            # 'rosbag_to_csv_plot = rosbag_to_csv.plot_gui:main',
+            'rosbag_to_csv_plot = rosbag_to_csv.plot_gui:main',
         ],
     },
 )
