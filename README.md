@@ -13,7 +13,7 @@ Convert ROS 2 bag files into a single, timestamp‑synchronized CSV via a simple
 1) Clone this repo into your ROS 2 workspace `src` folder:
 	 ```bash
 	 cd ~/ros2_ws/src
-	 git clone <url>
+	 git clone https://github.com/diegohmacias/rosbag_to_csv.git
 	 ```
 2) Source your ROS 2 distro setup:
 	 ```bash
